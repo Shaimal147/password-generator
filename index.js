@@ -15,7 +15,7 @@ function generatePassword(length, includeLowerCase, includeUpperCase, includeNum
     let randomChar
 
 // according to settings, creates a string of eligible characters (allChars)
-// also makes sure atleast one character of each setting selected is included
+// also makes sure at least one character of each setting selected is included
     if (includeLowerCase) {
         allChars += lowerCaseChars
         password.push(lowerCaseChars[Math.floor(Math.random() * lowerCaseChars.length)])
